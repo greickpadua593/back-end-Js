@@ -15,3 +15,24 @@ console.log(posicao)
 let  texto = "banana"
 let ultimaletra=texto.lastIndexOf("a")
 console.log(ultimaletra)
+
+//ex3
+let email = "aluno@escola.com"
+console.log(email.includes("@"))
+
+//ex4
+let arquivo= "relatorio.pdf"
+console.log(arquivo.endsWith(".pdf"))
+
+//ex5
+let mensagem="Bom dia, aluno!"
+console.log(mensagem.startsWith("Bom"))
+
+//ex6
+let palavra= "Computador"
+let corta=palavra.slice(3,6)
+console.log(corta)
+
+//ex7
+let palavra1="computador"
+console.log(palavra.substring(0,4))
