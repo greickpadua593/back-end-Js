@@ -53,3 +53,17 @@ let letra2=novo[1][0].toUpperCase()
 let letra3=novo[2][0].toUpperCase()
 let fim=letra1+letra2+letra3
 console.log(fim)
+
+//ex5
+let lista="maçã,banana,laranja,uva"
+console.log(lista.split(",").join(" | "))
+
+//ex6
+let misturadas="Isso é MUITO Perigoso"
+let nova=misturadas.toLowerCase()
+let existe=nova.includes("perigoso")
+console.log(existe)
+
+//ex7
+let cpf="123.456.789-00"
+console.log(cpf.split(".").join("-"))
