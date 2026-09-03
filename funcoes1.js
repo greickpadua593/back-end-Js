@@ -20,12 +20,26 @@
 // let item3 = 120 - 10;
 // console.log("Preço final: " + item3)
 
-//ex1
+// ex1
 function saudarUsuario(nome){
     return `ola,${nome},seja bem vindo ao sistema`
    
 }
 console.log(saudarUsuario("Greick"))
+console.log(saudarUsuario("Padua"))
+console.log(saudarUsuario("Augusto"))
 
-//ex2
-function somarValores
+// ex2
+function somarValores(numero1,numero2){
+    let soma =numero1+numero2
+    return soma
+}
+console.log(somarValores(15,25));
+
+//ex3
+function calcularPrecoComDesconto(preco){
+    let precoFinal= preco -10;
+    console.log( "Preco final: " + precoFinal);
+}
+
+calcularPrecoComDesconto(50)
